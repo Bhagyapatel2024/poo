@@ -21,9 +21,9 @@ import SpinningCube from './SpinningCube';
     }, [index, fullText]);
   return (
     <div className="relative h-screen flex items-center bg-black">
-      <div className="absolute inset-0 z-0">
+{/*       <div className="absolute inset-0 z-0">
         <SpinningCube />
-      </div>
+      </div> */}
       <div className="container mx-auto px-4 z-10">
 {/*         <motion.div
           initial={{ opacity: 0, y: 20 }}
