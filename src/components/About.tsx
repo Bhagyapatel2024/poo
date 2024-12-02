@@ -17,7 +17,7 @@ export default function About() {
          
             <div>
   <img
-    src="components/t2.jpg"
+    src="t2.jpg"
     alt="Profile"
     className="rounded-lg shadow-xxl"
   />
