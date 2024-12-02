@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
-import { motion } from 'framer-motion';
+// import { motion } from 'framer-motion';
 import { Github, Linkedin, Code2 } from 'lucide-react';
-import SpinningCube from './SpinningCube';
+// import SpinningCube from './SpinningCube';
 
 
   const Hero = () => {
@@ -49,14 +49,7 @@ import SpinningCube from './SpinningCube';
             >
               <Github size={32} />
             </motion.a> */}
-            <motion.a
-              whileHover={{ scale: 1.1 }}
-              whileTap={{ scale: 0.95 }}
-              href="https://www.linkedin.com/in/bhagyapatel/"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="text-white hover:text-blue-500 transition-colors"
-            >
+           
               <Linkedin size={32} />
 {/*             </motion.a>
             <motion.a
