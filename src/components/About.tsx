@@ -6,12 +6,12 @@ export default function About() {
   return (
     <section id="about" className="py-20 bg-black ">
       <div className="container mx-auto px-4">
-        <motion.div
+{/*         <motion.div
           initial={{ opacity: 0 }}
           whileInView={{ opacity: 1 }}
           transition={{ duration: 0.8 }}
           className="max-w-4xl mx-auto"
-        >
+        > */}
           <h2 className="text-4xl font-bold text-white mb-8">About Me</h2>
           <div className="grid md:grid-cols-2 gap-12">
          
@@ -72,7 +72,7 @@ export default function About() {
               
             </div>
           </div>
-        </motion.div>
+{/*         </motion.div> */}
       </div>
     </section>
   );
