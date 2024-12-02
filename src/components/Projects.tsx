@@ -277,13 +277,13 @@ const Projects = () => {
                  }}
                >
                  {category.projects.map((project, index) => (
-                   // <motion.div
-                   //   key={index}
-                   //   className="w-full sm:w-1/2 md:w-1/2 lg:w-1/4 px-4 flex-shrink-0 mb-6"
-                   //   initial={{ opacity: 0, y: 20 }}
-                   //   whileInView={{ opacity: 1, y: 0 }}
-                   //   transition={{ duration: 0.5, delay: index * 0.2 }}
-                   // >
+                   <motion.div
+                     key={index}
+                     className="w-full sm:w-1/2 md:w-1/2 lg:w-1/4 px-4 flex-shrink-0 mb-6"
+                     initial={{ opacity: 0, y: 20 }}
+                     whileInView={{ opacity: 1, y: 0 }}
+                     transition={{ duration: 0.5, delay: index * 0.2 }}
+                    >
                      <div className="bg-gray-900 rounded-xl shadow-lg">
                        <a
                          href={project.live || project.github}
@@ -338,7 +338,7 @@ const Projects = () => {
                          </div>
                        </a>
                      </div>
-                   // </motion.div>
+                    </motion.div>
                  ))}
                </div>
              </div>
