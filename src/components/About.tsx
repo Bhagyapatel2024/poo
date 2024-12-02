@@ -15,13 +15,13 @@ export default function About() {
           <h2 className="text-4xl font-bold text-white mb-8">About Me</h2>
           <div className="grid md:grid-cols-2 gap-12">
          
-            <div>
+{/*             <div>
   <img
     src="t2.jpg"
     alt="Profile"
     className="rounded-lg shadow-xxl"
   />
-</div>
+</div> */}
 
           
             <div>
