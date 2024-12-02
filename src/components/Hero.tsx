@@ -25,12 +25,12 @@ import SpinningCube from './SpinningCube';
         <SpinningCube />
       </div>
       <div className="container mx-auto px-4 z-10">
-        <motion.div
+{/*         <motion.div
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8 }}
           className="max-w-4xl mx-auto text-center"
-        >
+        > */}
           <h1 className="text-6xl font-bold text-white mb-6">I'm Bhagya Patel</h1>
           <h2 className="text-2xl text-gray-300 mb-8">Software Engineer</h2>
           <p className="text-xl text-gray-400 mb-12">Crafting elegant solutions to complex problems</p>
@@ -58,7 +58,7 @@ import SpinningCube from './SpinningCube';
               className="text-white hover:text-blue-500 transition-colors"
             >
               <Linkedin size={32} />
-            </motion.a>
+{/*             </motion.a>
             <motion.a
               whileHover={{ scale: 1.1 }}
               whileTap={{ scale: 0.95 }}
@@ -66,11 +66,11 @@ import SpinningCube from './SpinningCube';
               target="_blank"
               rel="noopener noreferrer"
               className="text-white hover:text-blue-500 transition-colors"
-            >
+            > */}
               <Code2 size={32} />
-            </motion.a>
+{/*             </motion.a> */}
           </div>
-        </motion.div>
+{/*         </motion.div> */}
       </div>
     </div>
   );
