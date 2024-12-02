@@ -31,8 +31,8 @@ import SpinningCube from './SpinningCube';
           transition={{ duration: 0.8 }}
           className="max-w-4xl mx-auto text-center"
         > */}
-{/*           <h3 className="text-2xl font-bold text-white mb-8">I'm Bhagya Patel</h3> */}
-      <h2 className="text-2xl font-bold text-white mb-8">I'm Bhagya Patel</h2>
+          <h3 className="text-2xl font-bold text-white mb-8">I'm Bhagya Patel</h3>
+     
           <h2 className="text-2xl text-gray-300 mb-8">Software Engineer</h2>
           <p className="text-xl text-gray-400 mb-12">Crafting elegant solutions to complex problems</p>
 
