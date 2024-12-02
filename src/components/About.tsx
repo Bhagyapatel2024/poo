@@ -13,7 +13,7 @@ export default function About() {
           className="max-w-4xl mx-auto"
         > */}
           <h2 className="text-4xl font-bold text-white mb-8">About Me</h2>
-          <div className="grid md:grid-cols-2 gap-12">
+{/*           <div className="grid md:grid-cols-2 gap-12"> */}
          
 {/*             <div>
   <img
@@ -24,7 +24,7 @@ export default function About() {
 </div> */}
 
           
-            <div>
+{/*             <div> */}
               <p className="text-gray-300 mb-6">
               Hello! My name is Bhagya Patel, and I am an enthusiastic Computer Science Engineering student with a passion for solving complex problems and building innovative solutions. I have a strong foundation in programming languages such as Java and Python and hands-on experience in web development using React.js to create responsive, real-time applications. My background in machine learning includes developing predictive models with frameworks like scikit-learn and TensorFlow. I have demonstrated my problem-solving skills by solving over 500 problems on LeetCode and earned an All India Rank of 553 in the National Level Science Talent Search Examination.
               </p>
