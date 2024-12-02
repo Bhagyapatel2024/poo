@@ -7,20 +7,20 @@ export default function Education() {
   return (
     <section id="education" className="py-20 bg-black ">
       <div className="container mx-auto px-4">
-        <motion.div
+{/*         <motion.div
           initial={{ opacity: 0 }}
           whileInView={{ opacity: 1 }}
           transition={{ duration: 0.8 }}
           className="max-w-4xl mx-auto"
-        >
+        > */}
           <h2 className="text-4xl font-bold text-white mb-12">Education & Achievements</h2>
           
           <div className="space-y-12">
-            <motion.div
+{/*             <motion.div
               initial={{ opacity: 0, x: -20 }}
               whileInView={{ opacity: 1, x: 0 }}
               className="flex gap-6"
-            >
+            > */}
               <div className="flex-shrink-0">
                 <div className="w-12 h-12 bg-blue-500/10 rounded-full flex items-center justify-center">
                   <GraduationCap className="text-blue-400" size={24} />
@@ -36,13 +36,13 @@ export default function Education() {
                 Course Work: Data Structures and Algorithms, Probability and Statistics, Database Management Systems, Operating Systems, Object-Oriented Programming, Computer Architecture, Data Communication.
                 </p>
               </div>
-            </motion.div>
+{/*             </motion.div>
 
             <motion.div
               initial={{ opacity: 0, x: -20 }}
               whileInView={{ opacity: 1, x: 0 }}
               className="flex gap-6"
-            >
+            > */}
               <div className="flex-shrink-0">
                 <div className="w-12 h-12 bg-blue-500/10 rounded-full flex items-center justify-center">
                   <GraduationCap className="text-blue-400" size={24} />
@@ -58,13 +58,13 @@ export default function Education() {
                 All India Rank : 553 , State Rank : 37 
                 </p>
               </div>
-            </motion.div>
+{/*             </motion.div>
 
             <motion.div
               initial={{ opacity: 0, x: -20 }}
               whileInView={{ opacity: 1, x: 0 }}
               className="flex gap-6"
-            >
+            > */}
               <div className="flex-shrink-0">
                 <div className="w-12 h-12 bg-blue-500/10 rounded-full flex items-center justify-center">
                   <Award className="text-blue-400" size={24} />
@@ -84,9 +84,9 @@ export default function Education() {
                  
                 </div>
               </div>
-            </motion.div>
+{/*             </motion.div> */}
           </div>
-        </motion.div>
+{/*         </motion.div> */}
       </div>
     </section>
   );
