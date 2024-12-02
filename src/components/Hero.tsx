@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
-// import { motion } from 'framer-motion';
+import { motion } from 'framer-motion';
 import { Github, Linkedin, Code2 } from 'lucide-react';
-// import SpinningCube from './SpinningCube';
+import SpinningCube from './SpinningCube';
 
 
   const Hero = () => {
