@@ -16,12 +16,13 @@ export default function About() {
           <div className="grid md:grid-cols-2 gap-12">
          
             <div>
-              <img
-                src="components/t2.jpg"
-                alt="Profile"
-                className="rounded-lg shadow-xxl"
-              />
-            </div>
+  <img
+    src="components/t2.jpg"
+    alt="Profile"
+    className="rounded-lg shadow-xxl"
+  />
+</div>
+
           
             <div>
               <p className="text-gray-300 mb-6">
