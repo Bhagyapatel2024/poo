@@ -78,7 +78,7 @@ export default function Education() {
                   <div>
                     <p className="text-gray-400">LeetCode</p>
                     <p className="text-gray-300">
-                      500+ problems solved | Top 2% globally
+                      450+ problems solved | Top 2% globally
                     </p>
                   </div>
                  
